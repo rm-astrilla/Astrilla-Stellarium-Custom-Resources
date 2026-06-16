@@ -1,0 +1,5 @@
+Cloud textures for equirectangular panoramas integrated as a Stellarium custom landscape.
+  The assets used have a 2:1 aspect ratio; the resolution can be adjusted to match the panorama’s dimensions when applying blending techniques.
+
+Note: It’s best to combine this cloud texture with the already-blended landscape PNG file,
+as it will appear too thin and won’t blend perfectly if placed in the fog (maptex_fog) or illumination (maptex_illum) parameters in landscape.ini.
