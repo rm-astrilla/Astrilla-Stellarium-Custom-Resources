@@ -1,1 +1,21 @@
 ***MUST READ***
+
+This is a custom texture for the Milky Way, originally derived from Nick Risinger’s Milky Way panorama from the Photoscopic Sky Survey.
+This image won the APOD (Astronomy Picture of the Day) award on May 20, 2011. It is protected by a non-commercial license (CC-BY-NC), 
+so it MAY ONLY be used for non-commercial purposes, such as educational use.
+
+For the textures in the “ha-enhanced” folder, I used Finkbeiner’s all-sky H-alpha emission survey
+(a fairly popular survey for mapping the entire distribution of hydrogen-alpha emission gas across the celestial sphere) and applied
+a blending technique in GIMP. And once again, these are not for commercial use.
+
+----------------------------------------------------------------------------------------------------------------------------------------
+
+Installation instructions:
+
+Download the PNG image (milkyway.png) that I’ve included in each folder. I’ve organized the folders by number to avoid file name conflicts.
+Then, place the milkyway.png file in your Stellarium installation directory, depending on where you’ve set that directory—for example:
+
+D:\Stellarium\textures (I’ve placed it on drive D for this example)
+
+Paste it there; this will overwrite Stellarium’s default Milky Way texture.
+Restart Stellarium. The default Milky Way texture will now be replaced with the custom texture.
