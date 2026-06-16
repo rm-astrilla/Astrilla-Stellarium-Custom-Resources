@@ -1,0 +1,4 @@
+This is the default zodiacal light texture included in the Stellarium software.
+This texture is based on a brightness distribution model published in 2004 by S. M. Kwon, S. S. Hong, and J. L. Weinberg.
+You can also find and download it at https://github.com/stellarium/stellarium.
+This texture is used as a reference or to restore Stellarium's settings and textures to their default values
