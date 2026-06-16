@@ -1,0 +1,9 @@
+Installation instructions:
+
+Download the PNG image (zodiacallight_2004.png) that I’ve included in each folder. I’ve organized the folders by number to avoid file name conflicts.
+Then, place the zodiacallight_2004.png file in your Stellarium installation directory, depending on where you’ve set that directory—for example:
+
+D:\Stellarium\textures (I’ve placed it on drive D for this example)
+
+Paste it there; this will overwrite Stellarium’s default Zodiacal Light texture.
+Restart Stellarium. The default Zodiacal Light texture will now be replaced with the custom texture.
