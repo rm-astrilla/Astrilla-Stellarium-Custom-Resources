@@ -1,0 +1,2 @@
+This is the airglow texture, which is added to Stellarium’s landscape illumination (for instructions on how to install a custom landscape in Stellarium, please go to the Custom Landscapes folder).
+The airglow.png file will be zipped together with the landscape PNG files and the landscape.ini file, which is used to integrate them as a custom landscape.
