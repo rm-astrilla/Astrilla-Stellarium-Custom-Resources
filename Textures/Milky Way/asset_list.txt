@@ -1,0 +1,9 @@
+READ AFTER READING 'READ-ME' FILES
+
+mw-square_[ANOTHER INFIX].png => compressed 2:1 panorama milky way image to 1:1 ratio (square). Milky way stretched horizontally from left to right and the Image is also flipped horizontally (both magellanic cloud is on top left).
+mw-square.blended_[ANOTHER INFIX].png => 1:1 compressed milky way image blended by another milky way layer (e.g. h alpha).
+
+INFIX info:
+1. "Cristian Salgado et al" or shorten "CS-el" is the bunch of developers adding panoramic milky way image for Celestia software add-on, which is used here because it's blend well with Nick Risinger and default Stellarium Milky Way texture.
+2  "Finkbeiner" or shorten "FB" is the name who combining both h-alpha sky surveys (like SHASSA) to complete a 360 degree hydrogen alpha emmision all sky survey. Read further here: https://lambda.gsfc.nasa.gov/product/foreground/fg_halpha_info.html
+Finkbeiner also most commonly used overlay to create this blended and enhanced h alpha milky way texture here, alongside the OG Nick Risinger texture for h alpha-continuum overlay.
