@@ -1,0 +1,5 @@
+This is a folder containing equirectangular panoramas used as custom landscapes for Stellarium. These panoramas have been corrected for compass orientation and horizon alignment. In this folder, you will find several files extracted from the ZIP:
+
+1. Equirectangular panorama image files (in PNG format) 
+2. The “landscape.ini” file, which serves as the main configuration file for setting up and injecting the panoramas as custom landscapes
+3. Other files, such as “airglow.png,” to display airglow emissions at night (to view them, press Shift + G) 
