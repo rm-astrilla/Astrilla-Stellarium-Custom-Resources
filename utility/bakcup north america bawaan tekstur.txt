@@ -1,0 +1,8 @@
+	{
+		"imageCredits" : {"short" : "Adam Block/Steward Observatory/University of Arizona","infoUrl": "http://www.caelumobservatory.com/gallery/n7000astrograph.shtml"},
+		"imageUrl" : "north america.png",
+		"worldCoords" : [[[316.7411,41.8383], [311.1343,42.0255], [311.1982,46.2025], [317.2162,45.9995]]],
+		"textureCoords" : [[[0,0], [1,0], [1,1], [0,1]]],
+		"minResolution" : 0.2066023154,
+		"maxBrightness" : 13.2
+	},
