@@ -1,0 +1,502 @@
+16:18:26:212 [15872] | INFO  | Initializing crosire's ReShade version '6.8.0.2158' (64-bit) loaded from 'D:\System_files\Stellarium\dxgi.dll' into 'D:\System_files\Stellarium\stellarium.exe' (0x4EA5817B) ...
+16:18:26:214 [15872] | INFO  | Registering hooks for 'user32.dll' ...
+16:18:26:215 [15872] | INFO  | > Libraries loaded.
+16:18:26:217 [15872] | INFO  | > Found 21 match(es). Installing ...
+16:18:26:263 [15872] | INFO  | Registering hooks for 'C:\Windows\system32\dinput.dll' ...
+16:18:26:264 [15872] | INFO  | > Delayed.
+16:18:26:264 [15872] | INFO  | Registering hooks for 'C:\Windows\system32\dinput8.dll' ...
+16:18:26:265 [15872] | INFO  | > Delayed.
+16:18:26:265 [15872] | INFO  | Registering hooks for 'ws2_32.dll' ...
+16:18:26:265 [15872] | INFO  | > Libraries loaded.
+16:18:26:266 [15872] | INFO  | > Found 8 match(es). Installing ...
+16:18:26:308 [15872] | INFO  | Registering hooks for 'C:\Windows\system32\d2d1.dll' ...
+16:18:26:309 [15872] | INFO  | > Delayed.
+16:18:26:310 [15872] | INFO  | Registering hooks for 'C:\Windows\system32\d3d9.dll' ...
+16:18:26:311 [15872] | INFO  | > Libraries loaded.
+16:18:26:312 [15872] | INFO  | > Found 11 match(es). Installing ...
+16:18:26:359 [15872] | INFO  | Registering hooks for 'C:\Windows\system32\d3d10.dll' ...
+16:18:26:360 [15872] | INFO  | > Delayed.
+16:18:26:360 [15872] | INFO  | Registering hooks for 'C:\Windows\system32\d3d10_1.dll' ...
+16:18:26:364 [15872] | INFO  | > Delayed.
+16:18:26:364 [15872] | INFO  | Registering hooks for 'C:\Windows\system32\d3d11.dll' ...
+16:18:26:364 [15872] | INFO  | > Libraries loaded.
+16:18:26:365 [15872] | INFO  | > Found 3 match(es). Installing ...
+16:18:26:406 [15872] | INFO  | Registering hooks for 'C:\Windows\system32\d3d12.dll' ...
+16:18:26:408 [15872] | INFO  | > Delayed.
+16:18:26:408 [15872] | INFO  | Registering hooks for 'C:\Windows\system32\dxgi.dll' ...
+16:18:26:409 [15872] | INFO  | > Delayed until first call to an exported function.
+16:18:26:409 [15872] | INFO  | Registering hooks for 'openvr_api.dll' ...
+16:18:26:410 [15872] | INFO  | > Delayed.
+16:18:26:411 [15872] | INFO  | Initialized.
+16:18:26:436 [15872] | INFO  | Redirecting RegisterClassExW(lpWndClassEx = 00000085E38FE580 { "Qt5ClipboardView", style = 0 }) ...
+16:18:26:437 [15872] | INFO  | Redirecting RegisterClassW(lpWndClass = 00000085E38FEA80 { "QEventDispatcherWin32_Internal_Widget140711173312224", style = 0 }) ...
+16:18:26:444 [15872] | INFO  | Redirecting D3D11CreateDevice(pAdapter = 0000000000000000, DriverType = 1, Software = 0000000000000000, Flags = 0, pFeatureLevels = 00000233018A0200, FeatureLevels = 3, SDKVersion = 7, ppDevice = 00000233018B43A8, pFeatureLevel = 00000233018B43B0, ppImmediateContext = 00000233018B43B8) ...
+16:18:26:445 [15872] | INFO  | > Passing on to D3D11CreateDeviceAndSwapChain:
+16:18:26:446 [15872] | INFO  | Redirecting D3D11CreateDeviceAndSwapChain(pAdapter = 0000000000000000, DriverType = 1, Software = 0000000000000000, Flags = 0, pFeatureLevels = 00000233018A0200, FeatureLevels = 3, SDKVersion = 7, pSwapChainDesc = 0000000000000000, ppSwapChain = 0000000000000000, ppDevice = 00000233018B43A8, pFeatureLevel = 00000233018B43B0, ppImmediateContext = 00000233018B43B8) ...
+16:18:26:447 [15872] | INFO  | Installing export hooks for 'C:\Windows\system32\dxgi.dll' ...
+16:18:26:449 [15872] | INFO  | > Found 5 match(es). Installing ...
+16:18:26:450 [15872] | INFO  | Redirecting CreateDXGIFactory2(Flags = 0x80000000, riid = {7B7166EC-21C7-44AE-B21A-C9AE321AE369}, ppFactory = 00000085E38FDCF8) ...
+16:18:26:529 [15872] | INFO  | Using feature level b000.
+16:18:26:529 [15872] | INFO  | Searching for add-ons (*.addon, *.addon64) in 'D:\System_files\Stellarium' ...
+16:18:26:857 [15872] | INFO  | Redirecting RegisterClassExW(lpWndClassEx = 00000085E38FE6A0 { "Qt5QWindowIcon", style = 0x8 }) ...
+16:18:26:858 [15872] | INFO  | > Adding 'CS_OWNDC' window class style flag to "Qt5QWindowIcon".
+16:18:26:858 [15872] | INFO  | Redirecting Direct3DCreate9(SDKVersion = 0x20) ...
+16:18:26:896 [15872] | INFO  | Redirecting RegisterClassExW(lpWndClassEx = 00000085E38FDCF0 { "Qt5QWindowOwnDCIcon", style = 0x28 }) ...
+16:18:26:899 [15872] | INFO  | Redirecting IDXGIFactory::CreateSwapChain(this = 000002330242DC80, pDevice = 00000233022C6CB0, pDesc = 00000085E38FDFD0, ppSwapChain = 0000023302434A80) ...
+16:18:26:900 [15872] | INFO  | > Dumping swap chain description:
+16:18:26:900 [15872] | INFO  |   +-----------------------------------------+-----------------------------------------+
+16:18:26:900 [15872] | INFO  |   | Parameter                               | Value                                   |
+16:18:26:901 [15872] | INFO  |   +-----------------------------------------+-----------------------------------------+
+16:18:26:901 [15872] | INFO  |   | Width                                   | 1                                       |
+16:18:26:901 [15872] | INFO  |   | Height                                  | 1                                       |
+16:18:26:901 [15872] | INFO  |   | RefreshRate                             | 0                   1                   |
+16:18:26:901 [15872] | INFO  |   | Format                                  | DXGI_FORMAT_B8G8R8A8_UNORM              |
+16:18:26:901 [15872] | INFO  |   | ScanlineOrdering                        | 0                                       |
+16:18:26:902 [15872] | INFO  |   | Scaling                                 | 0                                       |
+16:18:26:902 [15872] | INFO  |   | SampleCount                             | 1                                       |
+16:18:26:902 [15872] | INFO  |   | SampleQuality                           | 0                                       |
+16:18:26:902 [15872] | INFO  |   | BufferUsage                             | 0x60                                    |
+16:18:26:902 [15872] | INFO  |   | BufferCount                             | 1                                       |
+16:18:26:902 [15872] | INFO  |   | OutputWindow                            | 00000000001C0948                        |
+16:18:26:902 [15872] | INFO  |   | Windowed                                | TRUE                                    |
+16:18:26:903 [15872] | INFO  |   | SwapEffect                              | 0                                       |
+16:18:26:903 [15872] | INFO  |   | Flags                                   | 0                                       |
+16:18:26:903 [15872] | INFO  |   +-----------------------------------------+-----------------------------------------+
+16:18:26:903 [15872] | INFO  | Running on Intel(R) UHD Graphics 620 Driver 121.45.
+16:18:51:459 [15872] | INFO  | Redirecting IDXGIFactory::CreateSwapChain(this = 000002330242DC80, pDevice = 00000233022C6CB0, pDesc = 00000085E38F9F20, ppSwapChain = 00000233733B63C0) ...
+16:18:51:461 [15872] | INFO  | > Dumping swap chain description:
+16:18:51:461 [15872] | INFO  |   +-----------------------------------------+-----------------------------------------+
+16:18:51:461 [15872] | INFO  |   | Parameter                               | Value                                   |
+16:18:51:461 [15872] | INFO  |   +-----------------------------------------+-----------------------------------------+
+16:18:51:462 [15872] | INFO  |   | Width                                   | 1920                                    |
+16:18:51:462 [15872] | INFO  |   | Height                                  | 1017                                    |
+16:18:51:462 [15872] | INFO  |   | RefreshRate                             | 0                   1                   |
+16:18:51:462 [15872] | INFO  |   | Format                                  | DXGI_FORMAT_B8G8R8A8_UNORM              |
+16:18:51:463 [15872] | INFO  |   | ScanlineOrdering                        | 0                                       |
+16:18:51:463 [15872] | INFO  |   | Scaling                                 | 0                                       |
+16:18:51:463 [15872] | INFO  |   | SampleCount                             | 1                                       |
+16:18:51:463 [15872] | INFO  |   | SampleQuality                           | 0                                       |
+16:18:51:464 [15872] | INFO  |   | BufferUsage                             | 0x60                                    |
+16:18:51:464 [15872] | INFO  |   | BufferCount                             | 1                                       |
+16:18:51:464 [15872] | INFO  |   | OutputWindow                            | 00000000001809BA                        |
+16:18:51:464 [15872] | INFO  |   | Windowed                                | TRUE                                    |
+16:18:51:465 [15872] | INFO  |   | SwapEffect                              | 0                                       |
+16:18:51:465 [15872] | INFO  |   | Flags                                   | 0                                       |
+16:18:51:465 [15872] | INFO  |   +-----------------------------------------+-----------------------------------------+
+16:18:51:468 [15872] | INFO  | Running on Intel(R) UHD Graphics 620 Driver 121.45.
+16:18:51:471 [15872] | INFO  | Recreated runtime environment on runtime 00000234702F2F00 ('D:\System_files\Stellarium\ReShade2.ini').
+16:18:51:522 [ 8804] | INFO  | Successfully compiled 'D:\System_files\Stellarium\reshade-shaders\Shaders\Daltonize.fx' in 0.013000 s.
+16:18:51:525 [18268] | INFO  | Successfully compiled 'D:\System_files\Stellarium\reshade-shaders\Shaders\FXShaders\Overlay.fx' in 0.015000 s.
+16:18:51:527 [10012] | INFO  | Successfully compiled 'D:\System_files\Stellarium\reshade-shaders\Shaders\FXShaders\CRT_Yeetron.fx' in 0.018000 s.
+16:18:51:535 [15448] | INFO  | Successfully compiled 'D:\System_files\Stellarium\reshade-shaders\Shaders\SweetFX\FXAA.fx' in 0.023000 s.
+16:18:51:538 [ 8804] | INFO  | Successfully compiled 'D:\System_files\Stellarium\reshade-shaders\Shaders\Deband.fx' in 0.014000 s.
+16:18:51:539 [10012] | INFO  | Successfully compiled 'D:\System_files\Stellarium\reshade-shaders\Shaders\FXShaders\Cursor.fx' in 0.010000 s.
+16:18:51:547 [12928] | INFO  | Successfully compiled 'D:\System_files\Stellarium\reshade-shaders\Shaders\AdaptiveSharpen.fx' in 0.038000 s.
+16:18:51:552 [15136] | INFO  | Successfully compiled 'D:\System_files\Stellarium\reshade-shaders\Shaders\LightDoF.fx' in 0.042000 s.
+16:18:51:553 [18268] | INFO  | Successfully compiled 'D:\System_files\Stellarium\reshade-shaders\Shaders\FXShaders\PiecewiseFilmicTonemap.fx' in 0.027000 s.
+16:18:51:563 [15448] | INFO  | Successfully compiled 'D:\System_files\Stellarium\reshade-shaders\Shaders\SweetFX\Layer.fx' in 0.027000 s.
+16:18:51:575 [ 8804] | INFO  | Successfully compiled 'D:\System_files\Stellarium\reshade-shaders\Shaders\Denoise.fx' in 0.036000 s.
+16:18:51:575 [10012] | INFO  | Successfully compiled 'D:\System_files\Stellarium\reshade-shaders\Shaders\FXShaders\DepthAlpha.fx' in 0.035000 s.
+16:18:51:586 [10012] | INFO  | Successfully compiled 'D:\System_files\Stellarium\reshade-shaders\Shaders\FXShaders\Dither.fx' in 0.009000 s.
+16:18:51:586 [15448] | INFO  | Successfully compiled 'D:\System_files\Stellarium\reshade-shaders\Shaders\SweetFX\Levels.fx' in 0.017000 s.
+16:18:51:588 [12928] | INFO  | Successfully compiled 'D:\System_files\Stellarium\reshade-shaders\Shaders\AmbientLight.fx' in 0.040000 s.
+16:18:51:589 [ 8804] | INFO  | Successfully compiled 'D:\System_files\Stellarium\reshade-shaders\Shaders\DisplayDepth.fx' in 0.012000 s.
+16:18:51:593 [10012] | INFO  | Successfully compiled 'D:\System_files\Stellarium\reshade-shaders\Shaders\FXShaders\Flashlight.fx' in 0.007000 s.
+16:18:51:596 [18268] | WARN  | Successfully compiled 'D:\System_files\Stellarium\reshade-shaders\Shaders\FXShaders\Pong.fx' in 0.023000 s with warnings:
+D:\System_files\Stellarium\reshade-shaders\Shaders\FXShaders\FXShaders/Digits.fxh(827, 31): warning X3206: implicit truncation of vector type
+D:\System_files\Stellarium\reshade-shaders\Shaders\FXShaders\Pong.fx(244, 38): warning X3206: implicit truncation of vector type
+
+16:18:51:597 [15448] | INFO  | Successfully compiled 'D:\System_files\Stellarium\reshade-shaders\Shaders\SweetFX\LiftGammaGain.fx' in 0.009000 s.
+16:18:51:602 [10012] | INFO  | Successfully compiled 'D:\System_files\Stellarium\reshade-shaders\Shaders\FXShaders\FlexibleCA.fx' in 0.007000 s.
+16:18:51:609 [18268] | INFO  | Successfully compiled 'D:\System_files\Stellarium\reshade-shaders\Shaders\FXShaders\RetroFog.fx' in 0.012000 s.
+16:18:51:613 [15448] | INFO  | Successfully compiled 'D:\System_files\Stellarium\reshade-shaders\Shaders\SweetFX\LumaSharpen.fx' in 0.015000 s.
+16:18:51:619 [18268] | INFO  | Successfully compiled 'D:\System_files\Stellarium\reshade-shaders\Shaders\FXShaders\SCurve.fx' in 0.009000 s.
+16:18:51:620 [12928] | INFO  | Successfully compiled 'D:\System_files\Stellarium\reshade-shaders\Shaders\Bloom.fx' in 0.030000 s.
+16:18:51:620 [10012] | INFO  | Successfully compiled 'D:\System_files\Stellarium\reshade-shaders\Shaders\FXShaders\FocalDOF.fx' in 0.017000 s.
+16:18:51:636 [15448] | INFO  | Successfully compiled 'D:\System_files\Stellarium\reshade-shaders\Shaders\SweetFX\Monochrome.fx' in 0.021000 s.
+16:18:51:637 [12928] | INFO  | Successfully compiled 'D:\System_files\Stellarium\reshade-shaders\Shaders\Colourfulness.fx' in 0.014000 s.
+16:18:51:640 [18268] | INFO  | Successfully compiled 'D:\System_files\Stellarium\reshade-shaders\Shaders\FXShaders\Sketch.fx' in 0.013000 s.
+16:18:51:643 [10012] | INFO  | Successfully compiled 'D:\System_files\Stellarium\reshade-shaders\Shaders\FXShaders\FramerateLimiter.fx' in 0.022000 s.
+16:18:51:682 [18268] | INFO  | Successfully compiled 'D:\System_files\Stellarium\reshade-shaders\Shaders\FXShaders\TrackingRays.fx' in 0.037000 s.
+16:18:51:683 [10012] | INFO  | Successfully compiled 'D:\System_files\Stellarium\reshade-shaders\Shaders\FXShaders\HexLensFlare.fx' in 0.037000 s.
+16:18:51:685 [15448] | INFO  | Successfully compiled 'D:\System_files\Stellarium\reshade-shaders\Shaders\SweetFX\Nostalgia.fx' in 0.048000 s.
+16:18:51:692 [15448] | INFO  | Successfully compiled 'D:\System_files\Stellarium\reshade-shaders\Shaders\SweetFX\Sepia.fx' in 0.006000 s.
+16:18:51:694 [15136] | INFO  | Successfully compiled 'D:\System_files\Stellarium\reshade-shaders\Shaders\LUT.fx' in 0.009000 s.
+16:18:51:706 [18268] | INFO  | Successfully compiled 'D:\System_files\Stellarium\reshade-shaders\Shaders\FXShaders\UnrealLens.fx' in 0.023000 s.
+16:18:51:708 [10012] | INFO  | Successfully compiled 'D:\System_files\Stellarium\reshade-shaders\Shaders\FXShaders\LiquidLens.fx' in 0.024000 s.
+16:18:51:716 [15136] | INFO  | Successfully compiled 'D:\System_files\Stellarium\reshade-shaders\Shaders\MagicBloom.fx' in 0.020000 s.
+16:18:51:740 [15136] | INFO  | Successfully compiled 'D:\System_files\Stellarium\reshade-shaders\Shaders\NightVision.fx' in 0.022000 s.
+16:18:51:761 [18268] | INFO  | Successfully compiled 'D:\System_files\Stellarium\reshade-shaders\Shaders\FXShaders\Unsharp.fx' in 0.054000 s.
+16:18:51:777 [15136] | INFO  | Successfully compiled 'D:\System_files\Stellarium\reshade-shaders\Shaders\ReflectiveBumpMapping.fx' in 0.032000 s.
+16:18:51:787 [18268] | INFO  | Successfully compiled 'D:\System_files\Stellarium\reshade-shaders\Shaders\FXShaders\VirtualResolution.fx' in 0.024000 s.
+16:18:51:806 [18268] | INFO  | Successfully compiled 'D:\System_files\Stellarium\reshade-shaders\Shaders\FXShaders\WhitepointFixer.fx' in 0.019000 s.
+16:18:51:814 [15136] | INFO  | Successfully compiled 'D:\System_files\Stellarium\reshade-shaders\Shaders\SweetFX\ASCII.fx' in 0.035000 s.
+16:18:51:831 [18268] | INFO  | Successfully compiled 'D:\System_files\Stellarium\reshade-shaders\Shaders\GaussianBlur.fx' in 0.024000 s.
+16:18:51:835 [15136] | INFO  | Successfully compiled 'D:\System_files\Stellarium\reshade-shaders\Shaders\SweetFX\Border.fx' in 0.018000 s.
+16:18:51:839 [ 8804] | INFO  | Successfully compiled 'D:\System_files\Stellarium\reshade-shaders\Shaders\DOF.fx' in 0.250000 s.
+16:18:51:844 [18268] | INFO  | Successfully compiled 'D:\System_files\Stellarium\reshade-shaders\Shaders\Glitch.fx' in 0.012000 s.
+16:18:51:855 [15136] | INFO  | Successfully compiled 'D:\System_files\Stellarium\reshade-shaders\Shaders\SweetFX\Cartoon.fx' in 0.020000 s.
+16:18:51:868 [15136] | INFO  | Successfully compiled 'D:\System_files\Stellarium\reshade-shaders\Shaders\SweetFX\CAS.fx' in 0.012000 s.
+16:18:51:878 [15136] | INFO  | Successfully compiled 'D:\System_files\Stellarium\reshade-shaders\Shaders\SweetFX\ChromaticAberration.fx' in 0.009000 s.
+16:18:51:879 [15448] | INFO  | Successfully compiled 'D:\System_files\Stellarium\reshade-shaders\Shaders\SweetFX\SMAA.fx' in 0.171000 s.
+16:18:51:894 [18268] | INFO  | Successfully compiled 'D:\System_files\Stellarium\reshade-shaders\Shaders\HighPassSharpen.fx' in 0.048000 s.
+16:18:51:903 [10012] | INFO  | Successfully compiled 'D:\System_files\Stellarium\reshade-shaders\Shaders\FXShaders\MagicHDR.fx' in 0.194000 s.
+16:18:51:904 [15448] | INFO  | Successfully compiled 'D:\System_files\Stellarium\reshade-shaders\Shaders\SweetFX\Splitscreen.fx' in 0.024000 s.
+16:18:51:907 [15136] | INFO  | Successfully compiled 'D:\System_files\Stellarium\reshade-shaders\Shaders\SweetFX\ColorMatrix.fx' in 0.028000 s.
+16:18:51:909 [18268] | INFO  | Successfully compiled 'D:\System_files\Stellarium\reshade-shaders\Shaders\HQ4X.fx' in 0.014000 s.
+16:18:51:914 [ 8804] | INFO  | Successfully compiled 'D:\System_files\Stellarium\reshade-shaders\Shaders\FakeMotionBlur.fx' in 0.074000 s.
+16:18:51:915 [10012] | INFO  | Successfully compiled 'D:\System_files\Stellarium\reshade-shaders\Shaders\FXShaders\MBMB.fx' in 0.011000 s.
+16:18:51:928 [10012] | INFO  | Successfully compiled 'D:\System_files\Stellarium\reshade-shaders\Shaders\FXShaders\MinimalColorGrading.fx' in 0.012000 s.
+16:18:51:929 [18268] | INFO  | Successfully compiled 'D:\System_files\Stellarium\reshade-shaders\Shaders\HSLShift.fx' in 0.015000 s.
+16:18:51:931 [15136] | INFO  | Successfully compiled 'D:\System_files\Stellarium\reshade-shaders\Shaders\SweetFX\Compare.fx' in 0.021000 s.
+16:18:51:937 [ 8804] | INFO  | Successfully compiled 'D:\System_files\Stellarium\reshade-shaders\Shaders\FilmGrain2.fx' in 0.022000 s.
+16:18:51:948 [18268] | INFO  | Successfully compiled 'D:\System_files\Stellarium\reshade-shaders\Shaders\LevelsPlus.fx' in 0.019000 s.
+16:18:51:953 [10012] | INFO  | Successfully compiled 'D:\System_files\Stellarium\reshade-shaders\Shaders\FXShaders\MultiFX.fx' in 0.024000 s.
+16:18:51:967 [ 8804] | INFO  | Successfully compiled 'D:\System_files\Stellarium\reshade-shaders\Shaders\FilmicPass.fx' in 0.029000 s.
+16:18:51:968 [12928] | ERROR | Failed to compile 'D:\System_files\Stellarium\reshade-shaders\Shaders\CShade\cAutoExposure.fx':
+D:\System_files\Stellarium\reshade-shaders\Shaders\CShade\shared/cMath.fxh(41, 16): warning X3206: implicit truncation of vector type
+D:\System_files\Stellarium\reshade-shaders\Shaders\CShade\shared/cMath.fxh(48, 16): warning X3206: implicit truncation of vector type
+D:\System_files\Stellarium\reshade-shaders\Shaders\CShade\shared/cMath.fxh(49, 10): error X3018: invalid subscript 'xy'
+D:\System_files\Stellarium\reshade-shaders\Shaders\CShade\shared/cMath.fxh(55, 16): warning X3206: implicit truncation of vector type
+D:\System_files\Stellarium\reshade-shaders\Shaders\CShade\shared/cMath.fxh(56, 10): error X3018: invalid subscript 'xyz'
+
+16:18:51:969 [15136] | INFO  | Successfully compiled 'D:\System_files\Stellarium\reshade-shaders\Shaders\SweetFX\CRT.fx' in 0.036000 s.
+16:18:51:992 [15136] | INFO  | Successfully compiled 'D:\System_files\Stellarium\reshade-shaders\Shaders\SweetFX\Curves.fx' in 0.022000 s.
+16:18:51:996 [10012] | INFO  | Successfully compiled 'D:\System_files\Stellarium\reshade-shaders\Shaders\FXShaders\NeoBloom.fx' in 0.041000 s.
+16:18:52:002 [15136] | INFO  | Successfully compiled 'D:\System_files\Stellarium\reshade-shaders\Shaders\SweetFX\DPX.fx' in 0.009000 s.
+16:18:52:009 [10012] | INFO  | Successfully compiled 'D:\System_files\Stellarium\reshade-shaders\Shaders\FXShaders\NormalMap.fx' in 0.012000 s.
+16:18:52:017 [15136] | INFO  | Successfully compiled 'D:\System_files\Stellarium\reshade-shaders\Shaders\SweetFX\FakeHDR.fx' in 0.013000 s.
+16:18:52:024 [15448] | INFO  | Successfully compiled 'D:\System_files\Stellarium\reshade-shaders\Shaders\SweetFX\Technicolor.fx' in 0.009000 s.
+16:18:52:030 [15136] | INFO  | Successfully compiled 'D:\System_files\Stellarium\reshade-shaders\Shaders\SweetFX\FilmGrain.fx' in 0.012000 s.
+16:18:52:038 [ 8804] | INFO  | Successfully compiled 'D:\System_files\Stellarium\reshade-shaders\Shaders\FineSharp.fx' in 0.070000 s.
+16:18:52:039 [15448] | INFO  | Successfully compiled 'D:\System_files\Stellarium\reshade-shaders\Shaders\SweetFX\Technicolor2.fx' in 0.014000 s.
+16:18:52:057 [15448] | INFO  | Successfully compiled 'D:\System_files\Stellarium\reshade-shaders\Shaders\SweetFX\Tonemap.fx' in 0.017000 s.
+16:18:52:061 [ 8804] | INFO  | Successfully compiled 'D:\System_files\Stellarium\reshade-shaders\Shaders\FXShaders\AdaptiveTonemapper.fx' in 0.022000 s.
+16:18:52:079 [15448] | INFO  | Successfully compiled 'D:\System_files\Stellarium\reshade-shaders\Shaders\SweetFX\Vibrance.fx' in 0.021000 s.
+16:18:52:104 [15448] | INFO  | Successfully compiled 'D:\System_files\Stellarium\reshade-shaders\Shaders\SweetFX\Vignette.fx' in 0.023000 s.
+16:18:52:111 [10008] | ERROR | Failed to compile 'D:\System_files\Stellarium\reshade-shaders\Shaders\CShade\cLens.fx':
+D:\System_files\Stellarium\reshade-shaders\Shaders\CShade\shared/cMath.fxh(41, 16): warning X3206: implicit truncation of vector type
+D:\System_files\Stellarium\reshade-shaders\Shaders\CShade\shared/cMath.fxh(48, 16): warning X3206: implicit truncation of vector type
+D:\System_files\Stellarium\reshade-shaders\Shaders\CShade\shared/cMath.fxh(49, 10): error X3018: invalid subscript 'xy'
+D:\System_files\Stellarium\reshade-shaders\Shaders\CShade\shared/cMath.fxh(55, 16): warning X3206: implicit truncation of vector type
+D:\System_files\Stellarium\reshade-shaders\Shaders\CShade\shared/cMath.fxh(56, 10): error X3018: invalid subscript 'xyz'
+
+16:18:52:138 [15448] | INFO  | Successfully compiled 'D:\System_files\Stellarium\reshade-shaders\Shaders\UIMask.fx' in 0.032000 s.
+16:18:52:193 [ 8804] | INFO  | Successfully compiled 'D:\System_files\Stellarium\reshade-shaders\Shaders\FXShaders\ArcaneBloom.fx' in 0.130000 s.
+16:18:52:207 [ 8804] | INFO  | Successfully compiled 'D:\System_files\Stellarium\reshade-shaders\Shaders\FXShaders\ArtisticVignette.fx' in 0.012000 s.
+16:18:52:227 [ 8804] | INFO  | Successfully compiled 'D:\System_files\Stellarium\reshade-shaders\Shaders\FXShaders\AspectRatioSuite.fx' in 0.020000 s.
+16:18:52:242 [ 8804] | INFO  | Successfully compiled 'D:\System_files\Stellarium\reshade-shaders\Shaders\FXShaders\Checkerboard.fx' in 0.012000 s.
+16:18:52:264 [ 8804] | INFO  | Successfully compiled 'D:\System_files\Stellarium\reshade-shaders\Shaders\FXShaders\ColorLab.fx' in 0.020000 s.
+16:18:52:342 [ 8804] | INFO  | Successfully compiled 'D:\System_files\Stellarium\reshade-shaders\Shaders\FXShaders\CRT_Lottes.fx' in 0.077000 s.
+16:18:52:366 [ 8804] | INFO  | Successfully compiled 'D:\System_files\Stellarium\reshade-shaders\Shaders\FXShaders\CRT_Yee64.fx' in 0.023000 s.
+16:18:52:405 [10008] | ERROR | Failed to compile 'D:\System_files\Stellarium\reshade-shaders\Shaders\CShade\cLetterBox.fx':
+D:\System_files\Stellarium\reshade-shaders\Shaders\CShade\shared/cMath.fxh(41, 16): warning X3206: implicit truncation of vector type
+D:\System_files\Stellarium\reshade-shaders\Shaders\CShade\shared/cMath.fxh(48, 16): warning X3206: implicit truncation of vector type
+D:\System_files\Stellarium\reshade-shaders\Shaders\CShade\shared/cMath.fxh(49, 10): error X3018: invalid subscript 'xy'
+D:\System_files\Stellarium\reshade-shaders\Shaders\CShade\shared/cMath.fxh(55, 16): warning X3206: implicit truncation of vector type
+D:\System_files\Stellarium\reshade-shaders\Shaders\CShade\shared/cMath.fxh(56, 10): error X3018: invalid subscript 'xyz'
+D:\System_files\Stellarium\reshade-shaders\Shaders\CShade\cLetterBox.fx(49, 15): warning X3206: implicit truncation of vector type
+
+16:18:52:426 [12928] | ERROR | Failed to compile 'D:\System_files\Stellarium\reshade-shaders\Shaders\CShade\cBloom.fx':
+D:\System_files\Stellarium\reshade-shaders\Shaders\CShade\shared/cMath.fxh(41, 16): warning X3206: implicit truncation of vector type
+D:\System_files\Stellarium\reshade-shaders\Shaders\CShade\shared/cMath.fxh(48, 16): warning X3206: implicit truncation of vector type
+D:\System_files\Stellarium\reshade-shaders\Shaders\CShade\shared/cMath.fxh(49, 10): error X3018: invalid subscript 'xy'
+D:\System_files\Stellarium\reshade-shaders\Shaders\CShade\shared/cMath.fxh(55, 16): warning X3206: implicit truncation of vector type
+D:\System_files\Stellarium\reshade-shaders\Shaders\CShade\shared/cMath.fxh(56, 10): error X3018: invalid subscript 'xyz'
+
+16:18:52:604 [10008] | ERROR | Failed to compile 'D:\System_files\Stellarium\reshade-shaders\Shaders\CShade\cLipse.fx':
+D:\System_files\Stellarium\reshade-shaders\Shaders\CShade\shared/cMath.fxh(41, 16): warning X3206: implicit truncation of vector type
+D:\System_files\Stellarium\reshade-shaders\Shaders\CShade\shared/cMath.fxh(48, 16): warning X3206: implicit truncation of vector type
+D:\System_files\Stellarium\reshade-shaders\Shaders\CShade\shared/cMath.fxh(49, 10): error X3018: invalid subscript 'xy'
+D:\System_files\Stellarium\reshade-shaders\Shaders\CShade\shared/cMath.fxh(55, 16): warning X3206: implicit truncation of vector type
+D:\System_files\Stellarium\reshade-shaders\Shaders\CShade\shared/cMath.fxh(56, 10): error X3018: invalid subscript 'xyz'
+
+16:18:52:888 [12928] | ERROR | Failed to compile 'D:\System_files\Stellarium\reshade-shaders\Shaders\CShade\cBlurH.fx':
+D:\System_files\Stellarium\reshade-shaders\Shaders\CShade\shared/cMath.fxh(41, 16): warning X3206: implicit truncation of vector type
+D:\System_files\Stellarium\reshade-shaders\Shaders\CShade\shared/cMath.fxh(48, 16): warning X3206: implicit truncation of vector type
+D:\System_files\Stellarium\reshade-shaders\Shaders\CShade\shared/cMath.fxh(49, 10): error X3018: invalid subscript 'xy'
+D:\System_files\Stellarium\reshade-shaders\Shaders\CShade\shared/cMath.fxh(55, 16): warning X3206: implicit truncation of vector type
+D:\System_files\Stellarium\reshade-shaders\Shaders\CShade\shared/cMath.fxh(56, 10): error X3018: invalid subscript 'xyz'
+
+16:18:53:517 [10008] | ERROR | Failed to compile 'D:\System_files\Stellarium\reshade-shaders\Shaders\CShade\cMotionBlur.fx':
+D:\System_files\Stellarium\reshade-shaders\Shaders\CShade\shared/cMath.fxh(41, 16): warning X3206: implicit truncation of vector type
+D:\System_files\Stellarium\reshade-shaders\Shaders\CShade\shared/cMath.fxh(48, 16): warning X3206: implicit truncation of vector type
+D:\System_files\Stellarium\reshade-shaders\Shaders\CShade\shared/cMath.fxh(49, 10): error X3018: invalid subscript 'xy'
+D:\System_files\Stellarium\reshade-shaders\Shaders\CShade\shared/cMath.fxh(55, 16): warning X3206: implicit truncation of vector type
+D:\System_files\Stellarium\reshade-shaders\Shaders\CShade\shared/cMath.fxh(56, 10): error X3018: invalid subscript 'xyz'
+
+16:18:53:581 [12928] | ERROR | Failed to compile 'D:\System_files\Stellarium\reshade-shaders\Shaders\CShade\cBlurV.fx':
+D:\System_files\Stellarium\reshade-shaders\Shaders\CShade\shared/cMath.fxh(41, 16): warning X3206: implicit truncation of vector type
+D:\System_files\Stellarium\reshade-shaders\Shaders\CShade\shared/cMath.fxh(48, 16): warning X3206: implicit truncation of vector type
+D:\System_files\Stellarium\reshade-shaders\Shaders\CShade\shared/cMath.fxh(49, 10): error X3018: invalid subscript 'xy'
+D:\System_files\Stellarium\reshade-shaders\Shaders\CShade\shared/cMath.fxh(55, 16): warning X3206: implicit truncation of vector type
+D:\System_files\Stellarium\reshade-shaders\Shaders\CShade\shared/cMath.fxh(56, 10): error X3018: invalid subscript 'xyz'
+
+16:18:53:974 [12928] | ERROR | Failed to compile 'D:\System_files\Stellarium\reshade-shaders\Shaders\CShade\cCAS.fx':
+D:\System_files\Stellarium\reshade-shaders\Shaders\CShade\shared/cMath.fxh(41, 16): warning X3206: implicit truncation of vector type
+D:\System_files\Stellarium\reshade-shaders\Shaders\CShade\shared/cMath.fxh(48, 16): warning X3206: implicit truncation of vector type
+D:\System_files\Stellarium\reshade-shaders\Shaders\CShade\shared/cMath.fxh(49, 10): error X3018: invalid subscript 'xy'
+D:\System_files\Stellarium\reshade-shaders\Shaders\CShade\shared/cMath.fxh(55, 16): warning X3206: implicit truncation of vector type
+D:\System_files\Stellarium\reshade-shaders\Shaders\CShade\shared/cMath.fxh(56, 10): error X3018: invalid subscript 'xyz'
+
+16:18:54:330 [12928] | ERROR | Failed to compile 'D:\System_files\Stellarium\reshade-shaders\Shaders\CShade\cCheckerBoard.fx':
+D:\System_files\Stellarium\reshade-shaders\Shaders\CShade\shared/cMath.fxh(41, 16): warning X3206: implicit truncation of vector type
+D:\System_files\Stellarium\reshade-shaders\Shaders\CShade\shared/cMath.fxh(48, 16): warning X3206: implicit truncation of vector type
+D:\System_files\Stellarium\reshade-shaders\Shaders\CShade\shared/cMath.fxh(49, 10): error X3018: invalid subscript 'xy'
+D:\System_files\Stellarium\reshade-shaders\Shaders\CShade\shared/cMath.fxh(55, 16): warning X3206: implicit truncation of vector type
+D:\System_files\Stellarium\reshade-shaders\Shaders\CShade\shared/cMath.fxh(56, 10): error X3018: invalid subscript 'xyz'
+
+16:18:54:333 [10008] | ERROR | Failed to compile 'D:\System_files\Stellarium\reshade-shaders\Shaders\CShade\cMotionStabilization.fx':
+D:\System_files\Stellarium\reshade-shaders\Shaders\CShade\shared/cMath.fxh(41, 16): warning X3206: implicit truncation of vector type
+D:\System_files\Stellarium\reshade-shaders\Shaders\CShade\shared/cMath.fxh(48, 16): warning X3206: implicit truncation of vector type
+D:\System_files\Stellarium\reshade-shaders\Shaders\CShade\shared/cMath.fxh(49, 10): error X3018: invalid subscript 'xy'
+D:\System_files\Stellarium\reshade-shaders\Shaders\CShade\shared/cMath.fxh(55, 16): warning X3206: implicit truncation of vector type
+D:\System_files\Stellarium\reshade-shaders\Shaders\CShade\shared/cMath.fxh(56, 10): error X3018: invalid subscript 'xyz'
+
+16:18:54:533 [10008] | ERROR | Failed to compile 'D:\System_files\Stellarium\reshade-shaders\Shaders\CShade\cNoiseBlur.fx':
+D:\System_files\Stellarium\reshade-shaders\Shaders\CShade\shared/cMath.fxh(41, 16): warning X3206: implicit truncation of vector type
+D:\System_files\Stellarium\reshade-shaders\Shaders\CShade\shared/cMath.fxh(48, 16): warning X3206: implicit truncation of vector type
+D:\System_files\Stellarium\reshade-shaders\Shaders\CShade\shared/cMath.fxh(49, 10): error X3018: invalid subscript 'xy'
+D:\System_files\Stellarium\reshade-shaders\Shaders\CShade\shared/cMath.fxh(55, 16): warning X3206: implicit truncation of vector type
+D:\System_files\Stellarium\reshade-shaders\Shaders\CShade\shared/cMath.fxh(56, 10): error X3018: invalid subscript 'xyz'
+
+16:18:54:535 [12928] | ERROR | Failed to compile 'D:\System_files\Stellarium\reshade-shaders\Shaders\CShade\cDLAA.fx':
+D:\System_files\Stellarium\reshade-shaders\Shaders\CShade\shared/cMath.fxh(41, 16): warning X3206: implicit truncation of vector type
+D:\System_files\Stellarium\reshade-shaders\Shaders\CShade\shared/cMath.fxh(48, 16): warning X3206: implicit truncation of vector type
+D:\System_files\Stellarium\reshade-shaders\Shaders\CShade\shared/cMath.fxh(49, 10): error X3018: invalid subscript 'xy'
+D:\System_files\Stellarium\reshade-shaders\Shaders\CShade\shared/cMath.fxh(55, 16): warning X3206: implicit truncation of vector type
+D:\System_files\Stellarium\reshade-shaders\Shaders\CShade\shared/cMath.fxh(56, 10): error X3018: invalid subscript 'xyz'
+
+16:18:55:011 [12928] | ERROR | Failed to compile 'D:\System_files\Stellarium\reshade-shaders\Shaders\CShade\cDots.fx':
+D:\System_files\Stellarium\reshade-shaders\Shaders\CShade\shared/cMath.fxh(41, 16): warning X3206: implicit truncation of vector type
+D:\System_files\Stellarium\reshade-shaders\Shaders\CShade\shared/cMath.fxh(48, 16): warning X3206: implicit truncation of vector type
+D:\System_files\Stellarium\reshade-shaders\Shaders\CShade\shared/cMath.fxh(49, 10): error X3018: invalid subscript 'xy'
+D:\System_files\Stellarium\reshade-shaders\Shaders\CShade\shared/cMath.fxh(55, 16): warning X3206: implicit truncation of vector type
+D:\System_files\Stellarium\reshade-shaders\Shaders\CShade\shared/cMath.fxh(56, 10): error X3018: invalid subscript 'xyz'
+D:\System_files\Stellarium\reshade-shaders\Shaders\CShade\cDots.fx(288, 14): warning X3206: implicit truncation of vector type
+D:\System_files\Stellarium\reshade-shaders\Shaders\CShade\cDots.fx(350, 38): warning X3206: implicit truncation of vector type
+D:\System_files\Stellarium\reshade-shaders\Shaders\CShade\cDots.fx(351, 38): warning X3206: implicit truncation of vector type
+D:\System_files\Stellarium\reshade-shaders\Shaders\CShade\cDots.fx(352, 38): warning X3206: implicit truncation of vector type
+D:\System_files\Stellarium\reshade-shaders\Shaders\CShade\cDots.fx(353, 38): warning X3206: implicit truncation of vector type
+
+16:18:55:060 [10008] | ERROR | Failed to compile 'D:\System_files\Stellarium\reshade-shaders\Shaders\CShade\cNormalize.fx':
+D:\System_files\Stellarium\reshade-shaders\Shaders\CShade\shared/cMath.fxh(41, 16): warning X3206: implicit truncation of vector type
+D:\System_files\Stellarium\reshade-shaders\Shaders\CShade\shared/cMath.fxh(48, 16): warning X3206: implicit truncation of vector type
+D:\System_files\Stellarium\reshade-shaders\Shaders\CShade\shared/cMath.fxh(49, 10): error X3018: invalid subscript 'xy'
+D:\System_files\Stellarium\reshade-shaders\Shaders\CShade\shared/cMath.fxh(55, 16): warning X3206: implicit truncation of vector type
+D:\System_files\Stellarium\reshade-shaders\Shaders\CShade\shared/cMath.fxh(56, 10): error X3018: invalid subscript 'xyz'
+
+16:18:55:335 [12928] | ERROR | Failed to compile 'D:\System_files\Stellarium\reshade-shaders\Shaders\CShade\cEnsor.fx':
+D:\System_files\Stellarium\reshade-shaders\Shaders\CShade\shared/cMath.fxh(41, 16): warning X3206: implicit truncation of vector type
+D:\System_files\Stellarium\reshade-shaders\Shaders\CShade\shared/cMath.fxh(48, 16): warning X3206: implicit truncation of vector type
+D:\System_files\Stellarium\reshade-shaders\Shaders\CShade\shared/cMath.fxh(49, 10): error X3018: invalid subscript 'xy'
+D:\System_files\Stellarium\reshade-shaders\Shaders\CShade\shared/cMath.fxh(55, 16): warning X3206: implicit truncation of vector type
+D:\System_files\Stellarium\reshade-shaders\Shaders\CShade\shared/cMath.fxh(56, 10): error X3018: invalid subscript 'xyz'
+
+16:18:55:348 [10008] | ERROR | Failed to compile 'D:\System_files\Stellarium\reshade-shaders\Shaders\CShade\cQuantize.fx':
+D:\System_files\Stellarium\reshade-shaders\Shaders\CShade\shared/cMath.fxh(41, 16): warning X3206: implicit truncation of vector type
+D:\System_files\Stellarium\reshade-shaders\Shaders\CShade\shared/cMath.fxh(48, 16): warning X3206: implicit truncation of vector type
+D:\System_files\Stellarium\reshade-shaders\Shaders\CShade\shared/cMath.fxh(49, 10): error X3018: invalid subscript 'xy'
+D:\System_files\Stellarium\reshade-shaders\Shaders\CShade\shared/cMath.fxh(55, 16): warning X3206: implicit truncation of vector type
+D:\System_files\Stellarium\reshade-shaders\Shaders\CShade\shared/cMath.fxh(56, 10): error X3018: invalid subscript 'xyz'
+
+16:18:55:640 [10008] | ERROR | Failed to compile 'D:\System_files\Stellarium\reshade-shaders\Shaders\CShade\cRCAS.fx':
+D:\System_files\Stellarium\reshade-shaders\Shaders\CShade\shared/cMath.fxh(41, 16): warning X3206: implicit truncation of vector type
+D:\System_files\Stellarium\reshade-shaders\Shaders\CShade\shared/cMath.fxh(48, 16): warning X3206: implicit truncation of vector type
+D:\System_files\Stellarium\reshade-shaders\Shaders\CShade\shared/cMath.fxh(49, 10): error X3018: invalid subscript 'xy'
+D:\System_files\Stellarium\reshade-shaders\Shaders\CShade\shared/cMath.fxh(55, 16): warning X3206: implicit truncation of vector type
+D:\System_files\Stellarium\reshade-shaders\Shaders\CShade\shared/cMath.fxh(56, 10): error X3018: invalid subscript 'xyz'
+
+16:18:56:030 [12928] | ERROR | Failed to compile 'D:\System_files\Stellarium\reshade-shaders\Shaders\CShade\cFlow.fx':
+D:\System_files\Stellarium\reshade-shaders\Shaders\CShade\shared/cMath.fxh(41, 16): warning X3206: implicit truncation of vector type
+D:\System_files\Stellarium\reshade-shaders\Shaders\CShade\shared/cMath.fxh(48, 16): warning X3206: implicit truncation of vector type
+D:\System_files\Stellarium\reshade-shaders\Shaders\CShade\shared/cMath.fxh(49, 10): error X3018: invalid subscript 'xy'
+D:\System_files\Stellarium\reshade-shaders\Shaders\CShade\shared/cMath.fxh(55, 16): warning X3206: implicit truncation of vector type
+D:\System_files\Stellarium\reshade-shaders\Shaders\CShade\shared/cMath.fxh(56, 10): error X3018: invalid subscript 'xyz'
+
+16:18:56:479 [12928] | ERROR | Failed to compile 'D:\System_files\Stellarium\reshade-shaders\Shaders\CShade\cFXAA.fx':
+D:\System_files\Stellarium\reshade-shaders\Shaders\CShade\shared/cMath.fxh(41, 16): warning X3206: implicit truncation of vector type
+D:\System_files\Stellarium\reshade-shaders\Shaders\CShade\shared/cMath.fxh(48, 16): warning X3206: implicit truncation of vector type
+D:\System_files\Stellarium\reshade-shaders\Shaders\CShade\shared/cMath.fxh(49, 10): error X3018: invalid subscript 'xy'
+D:\System_files\Stellarium\reshade-shaders\Shaders\CShade\shared/cMath.fxh(55, 16): warning X3206: implicit truncation of vector type
+D:\System_files\Stellarium\reshade-shaders\Shaders\CShade\shared/cMath.fxh(56, 10): error X3018: invalid subscript 'xyz'
+
+16:18:56:525 [10008] | ERROR | Failed to compile 'D:\System_files\Stellarium\reshade-shaders\Shaders\CShade\cShares.fx':
+D:\System_files\Stellarium\reshade-shaders\Shaders\CShade\shared/cMath.fxh(41, 16): warning X3206: implicit truncation of vector type
+D:\System_files\Stellarium\reshade-shaders\Shaders\CShade\shared/cMath.fxh(48, 16): warning X3206: implicit truncation of vector type
+D:\System_files\Stellarium\reshade-shaders\Shaders\CShade\shared/cMath.fxh(49, 10): error X3018: invalid subscript 'xy'
+D:\System_files\Stellarium\reshade-shaders\Shaders\CShade\shared/cMath.fxh(55, 16): warning X3206: implicit truncation of vector type
+D:\System_files\Stellarium\reshade-shaders\Shaders\CShade\shared/cMath.fxh(56, 10): error X3018: invalid subscript 'xyz'
+
+16:18:56:740 [10008] | ERROR | Failed to compile 'D:\System_files\Stellarium\reshade-shaders\Shaders\CShade\cSolidColor.fx':
+D:\System_files\Stellarium\reshade-shaders\Shaders\CShade\shared/cMath.fxh(41, 16): warning X3206: implicit truncation of vector type
+D:\System_files\Stellarium\reshade-shaders\Shaders\CShade\shared/cMath.fxh(48, 16): warning X3206: implicit truncation of vector type
+D:\System_files\Stellarium\reshade-shaders\Shaders\CShade\shared/cMath.fxh(49, 10): error X3018: invalid subscript 'xy'
+D:\System_files\Stellarium\reshade-shaders\Shaders\CShade\shared/cMath.fxh(55, 16): warning X3206: implicit truncation of vector type
+D:\System_files\Stellarium\reshade-shaders\Shaders\CShade\shared/cMath.fxh(56, 10): error X3018: invalid subscript 'xyz'
+
+16:18:56:801 [12928] | ERROR | Failed to compile 'D:\System_files\Stellarium\reshade-shaders\Shaders\CShade\cGhost.fx':
+D:\System_files\Stellarium\reshade-shaders\Shaders\CShade\shared/cMath.fxh(41, 16): warning X3206: implicit truncation of vector type
+D:\System_files\Stellarium\reshade-shaders\Shaders\CShade\shared/cMath.fxh(48, 16): warning X3206: implicit truncation of vector type
+D:\System_files\Stellarium\reshade-shaders\Shaders\CShade\shared/cMath.fxh(49, 10): error X3018: invalid subscript 'xy'
+D:\System_files\Stellarium\reshade-shaders\Shaders\CShade\shared/cMath.fxh(55, 16): warning X3206: implicit truncation of vector type
+D:\System_files\Stellarium\reshade-shaders\Shaders\CShade\shared/cMath.fxh(56, 10): error X3018: invalid subscript 'xyz'
+
+16:18:57:023 [10008] | ERROR | Failed to compile 'D:\System_files\Stellarium\reshade-shaders\Shaders\CShade\cSpace.fx':
+D:\System_files\Stellarium\reshade-shaders\Shaders\CShade\shared/cMath.fxh(41, 16): warning X3206: implicit truncation of vector type
+D:\System_files\Stellarium\reshade-shaders\Shaders\CShade\shared/cMath.fxh(48, 16): warning X3206: implicit truncation of vector type
+D:\System_files\Stellarium\reshade-shaders\Shaders\CShade\shared/cMath.fxh(49, 10): error X3018: invalid subscript 'xy'
+D:\System_files\Stellarium\reshade-shaders\Shaders\CShade\shared/cMath.fxh(55, 16): warning X3206: implicit truncation of vector type
+D:\System_files\Stellarium\reshade-shaders\Shaders\CShade\shared/cMath.fxh(56, 10): error X3018: invalid subscript 'xyz'
+D:\System_files\Stellarium\reshade-shaders\Shaders\CShade\cSpace.fx(53, 44): warning X3206: implicit truncation of vector type
+D:\System_files\Stellarium\reshade-shaders\Shaders\CShade\cSpace.fx(56, 45): warning X3206: implicit truncation of vector type
+D:\System_files\Stellarium\reshade-shaders\Shaders\CShade\cSpace.fx(59, 44): warning X3206: implicit truncation of vector type
+D:\System_files\Stellarium\reshade-shaders\Shaders\CShade\cSpace.fx(62, 45): warning X3206: implicit truncation of vector type
+D:\System_files\Stellarium\reshade-shaders\Shaders\CShade\cSpace.fx(65, 44): warning X3206: implicit truncation of vector type
+D:\System_files\Stellarium\reshade-shaders\Shaders\CShade\cSpace.fx(68, 45): warning X3206: implicit truncation of vector type
+D:\System_files\Stellarium\reshade-shaders\Shaders\CShade\cSpace.fx(71, 44): warning X3206: implicit truncation of vector type
+D:\System_files\Stellarium\reshade-shaders\Shaders\CShade\cSpace.fx(74, 45): warning X3206: implicit truncation of vector type
+D:\System_files\Stellarium\reshade-shaders\Shaders\CShade\cSpace.fx(77, 43): warning X3206: implicit truncation of vector type
+D:\System_files\Stellarium\reshade-shaders\Shaders\CShade\cSpace.fx(80, 41): warning X3206: implicit truncation of vector type
+D:\System_files\Stellarium\reshade-shaders\Shaders\CShade\cSpace.fx(83, 32): warning X3206: implicit truncation of vector type
+D:\System_files\Stellarium\reshade-shaders\Shaders\CShade\cSpace.fx(86, 32): warning X3206: implicit truncation of vector type
+D:\System_files\Stellarium\reshade-shaders\Shaders\CShade\cSpace.fx(89, 32): warning X3206: implicit truncation of vector type
+D:\System_files\Stellarium\reshade-shaders\Shaders\CShade\cSpace.fx(92, 36): warning X3206: implicit truncation of vector type
+D:\System_files\Stellarium\reshade-shaders\Shaders\CShade\cSpace.fx(95, 34): warning X3206: implicit truncation of vector type
+D:\System_files\Stellarium\reshade-shaders\Shaders\CShade\cSpace.fx(100, 34): warning X3206: implicit truncation of vector type
+
+16:18:57:083 [12928] | ERROR | Failed to compile 'D:\System_files\Stellarium\reshade-shaders\Shaders\CShade\cLayer.fx':
+D:\System_files\Stellarium\reshade-shaders\Shaders\CShade\shared/cMath.fxh(41, 16): warning X3206: implicit truncation of vector type
+D:\System_files\Stellarium\reshade-shaders\Shaders\CShade\shared/cMath.fxh(48, 16): warning X3206: implicit truncation of vector type
+D:\System_files\Stellarium\reshade-shaders\Shaders\CShade\shared/cMath.fxh(49, 10): error X3018: invalid subscript 'xy'
+D:\System_files\Stellarium\reshade-shaders\Shaders\CShade\shared/cMath.fxh(55, 16): warning X3206: implicit truncation of vector type
+D:\System_files\Stellarium\reshade-shaders\Shaders\CShade\shared/cMath.fxh(56, 10): error X3018: invalid subscript 'xyz'
+
+16:18:57:368 [10008] | ERROR | Failed to compile 'D:\System_files\Stellarium\reshade-shaders\Shaders\CShade\cThreshold.fx':
+D:\System_files\Stellarium\reshade-shaders\Shaders\CShade\shared/cMath.fxh(41, 16): warning X3206: implicit truncation of vector type
+D:\System_files\Stellarium\reshade-shaders\Shaders\CShade\shared/cMath.fxh(48, 16): warning X3206: implicit truncation of vector type
+D:\System_files\Stellarium\reshade-shaders\Shaders\CShade\shared/cMath.fxh(49, 10): error X3018: invalid subscript 'xy'
+D:\System_files\Stellarium\reshade-shaders\Shaders\CShade\shared/cMath.fxh(55, 16): warning X3206: implicit truncation of vector type
+D:\System_files\Stellarium\reshade-shaders\Shaders\CShade\shared/cMath.fxh(56, 10): error X3018: invalid subscript 'xyz'
+
+16:18:57:596 [10008] | ERROR | Failed to compile 'D:\System_files\Stellarium\reshade-shaders\Shaders\CShade\cTransform.fx':
+D:\System_files\Stellarium\reshade-shaders\Shaders\CShade\shared/cMath.fxh(41, 16): warning X3206: implicit truncation of vector type
+D:\System_files\Stellarium\reshade-shaders\Shaders\CShade\shared/cMath.fxh(48, 16): warning X3206: implicit truncation of vector type
+D:\System_files\Stellarium\reshade-shaders\Shaders\CShade\shared/cMath.fxh(49, 10): error X3018: invalid subscript 'xy'
+D:\System_files\Stellarium\reshade-shaders\Shaders\CShade\shared/cMath.fxh(55, 16): warning X3206: implicit truncation of vector type
+D:\System_files\Stellarium\reshade-shaders\Shaders\CShade\shared/cMath.fxh(56, 10): error X3018: invalid subscript 'xyz'
+
+16:18:57:863 [10008] | ERROR | Failed to compile 'D:\System_files\Stellarium\reshade-shaders\Shaders\CShade\kContour.fx':
+D:\System_files\Stellarium\reshade-shaders\Shaders\CShade\shared/cMath.fxh(41, 16): warning X3206: implicit truncation of vector type
+D:\System_files\Stellarium\reshade-shaders\Shaders\CShade\shared/cMath.fxh(48, 16): warning X3206: implicit truncation of vector type
+D:\System_files\Stellarium\reshade-shaders\Shaders\CShade\shared/cMath.fxh(49, 10): error X3018: invalid subscript 'xy'
+D:\System_files\Stellarium\reshade-shaders\Shaders\CShade\shared/cMath.fxh(55, 16): warning X3206: implicit truncation of vector type
+D:\System_files\Stellarium\reshade-shaders\Shaders\CShade\shared/cMath.fxh(56, 10): error X3018: invalid subscript 'xyz'
+
+16:18:58:460 [10008] | ERROR | Failed to compile 'D:\System_files\Stellarium\reshade-shaders\Shaders\CShade\kDatamosh.fx':
+D:\System_files\Stellarium\reshade-shaders\Shaders\CShade\shared/cMath.fxh(41, 16): warning X3206: implicit truncation of vector type
+D:\System_files\Stellarium\reshade-shaders\Shaders\CShade\shared/cMath.fxh(48, 16): warning X3206: implicit truncation of vector type
+D:\System_files\Stellarium\reshade-shaders\Shaders\CShade\shared/cMath.fxh(49, 10): error X3018: invalid subscript 'xy'
+D:\System_files\Stellarium\reshade-shaders\Shaders\CShade\shared/cMath.fxh(55, 16): warning X3206: implicit truncation of vector type
+D:\System_files\Stellarium\reshade-shaders\Shaders\CShade\shared/cMath.fxh(56, 10): error X3018: invalid subscript 'xyz'
+
+16:18:58:701 [10008] | ERROR | Failed to compile 'D:\System_files\Stellarium\reshade-shaders\Shaders\CShade\kMirror.fx':
+D:\System_files\Stellarium\reshade-shaders\Shaders\CShade\shared/cMath.fxh(41, 16): warning X3206: implicit truncation of vector type
+D:\System_files\Stellarium\reshade-shaders\Shaders\CShade\shared/cMath.fxh(48, 16): warning X3206: implicit truncation of vector type
+D:\System_files\Stellarium\reshade-shaders\Shaders\CShade\shared/cMath.fxh(49, 10): error X3018: invalid subscript 'xy'
+D:\System_files\Stellarium\reshade-shaders\Shaders\CShade\shared/cMath.fxh(55, 16): warning X3206: implicit truncation of vector type
+D:\System_files\Stellarium\reshade-shaders\Shaders\CShade\shared/cMath.fxh(56, 10): error X3018: invalid subscript 'xyz'
+
+16:18:59:560 [15872] | INFO  | Resizing image data for texture 'V__lensDBTex' from 1024x576 to 1920x1080.
+16:18:59:665 [15872] | INFO  | Resizing image data for texture 'V__lensDB2Tex' from 1024x576 to 1920x1080.
+16:20:29:437 [15872] | INFO  | Redirecting IDXGIFactory::CreateSwapChain(this = 000002330242DC80, pDevice = 00000233022C6CB0, pDesc = 00000085E38FE640, ppSwapChain = 00000233733B6840) ...
+16:20:29:438 [15872] | INFO  | > Dumping swap chain description:
+16:20:29:438 [15872] | INFO  |   +-----------------------------------------+-----------------------------------------+
+16:20:29:439 [15872] | INFO  |   | Parameter                               | Value                                   |
+16:20:29:439 [15872] | INFO  |   +-----------------------------------------+-----------------------------------------+
+16:20:29:440 [15872] | INFO  |   | Width                                   | 1                                       |
+16:20:29:440 [15872] | INFO  |   | Height                                  | 1                                       |
+16:20:29:441 [15872] | INFO  |   | RefreshRate                             | 0                   1                   |
+16:20:29:441 [15872] | INFO  |   | Format                                  | DXGI_FORMAT_B8G8R8A8_UNORM              |
+16:20:29:441 [15872] | INFO  |   | ScanlineOrdering                        | 0                                       |
+16:20:29:442 [15872] | INFO  |   | Scaling                                 | 0                                       |
+16:20:29:442 [15872] | INFO  |   | SampleCount                             | 1                                       |
+16:20:29:444 [15872] | INFO  |   | SampleQuality                           | 0                                       |
+16:20:29:445 [15872] | INFO  |   | BufferUsage                             | 0x60                                    |
+16:20:29:445 [15872] | INFO  |   | BufferCount                             | 1                                       |
+16:20:29:445 [15872] | INFO  |   | OutputWindow                            | 0000000000040720                        |
+16:20:29:446 [15872] | INFO  |   | Windowed                                | TRUE                                    |
+16:20:29:446 [15872] | INFO  |   | SwapEffect                              | 0                                       |
+16:20:29:446 [15872] | INFO  |   | Flags                                   | 0                                       |
+16:20:29:447 [15872] | INFO  |   +-----------------------------------------+-----------------------------------------+
+16:20:29:449 [15872] | INFO  | Running on Intel(R) UHD Graphics 620 Driver 121.45.
+16:20:29:464 [15872] | INFO  | Redirecting IDXGIFactory::CreateSwapChain(this = 000002330242DC80, pDevice = 00000233022C6CB0, pDesc = 00000085E38FE640, ppSwapChain = 00000233733B36C0) ...
+16:20:29:465 [15872] | INFO  | > Dumping swap chain description:
+16:20:29:465 [15872] | INFO  |   +-----------------------------------------+-----------------------------------------+
+16:20:29:465 [15872] | INFO  |   | Parameter                               | Value                                   |
+16:20:29:466 [15872] | INFO  |   +-----------------------------------------+-----------------------------------------+
+16:20:29:466 [15872] | INFO  |   | Width                                   | 1                                       |
+16:20:29:466 [15872] | INFO  |   | Height                                  | 1                                       |
+16:20:29:467 [15872] | INFO  |   | RefreshRate                             | 0                   1                   |
+16:20:29:467 [15872] | INFO  |   | Format                                  | DXGI_FORMAT_B8G8R8A8_UNORM              |
+16:20:29:467 [15872] | INFO  |   | ScanlineOrdering                        | 0                                       |
+16:20:29:468 [15872] | INFO  |   | Scaling                                 | 0                                       |
+16:20:29:468 [15872] | INFO  |   | SampleCount                             | 1                                       |
+16:20:29:469 [15872] | INFO  |   | SampleQuality                           | 0                                       |
+16:20:29:469 [15872] | INFO  |   | BufferUsage                             | 0x60                                    |
+16:20:29:469 [15872] | INFO  |   | BufferCount                             | 1                                       |
+16:20:29:470 [15872] | INFO  |   | OutputWindow                            | 0000000000050720                        |
+16:20:29:470 [15872] | INFO  |   | Windowed                                | TRUE                                    |
+16:20:29:470 [15872] | INFO  |   | SwapEffect                              | 0                                       |
+16:20:29:470 [15872] | INFO  |   | Flags                                   | 0                                       |
+16:20:29:471 [15872] | INFO  |   +-----------------------------------------+-----------------------------------------+
+16:20:29:473 [15872] | INFO  | Running on Intel(R) UHD Graphics 620 Driver 121.45.
+16:20:29:560 [15872] | WARN  | Reference count for IDXGISwapChain0 object 00000234704C0130 (0000023470967030) is inconsistent (1).
+16:20:29:569 [15872] | INFO  | Redirecting IDXGIFactory::CreateSwapChain(this = 000002330242DC80, pDevice = 00000233022C6CB0, pDesc = 00000085E38FE640, ppSwapChain = 00000233733B4320) ...
+16:20:29:570 [15872] | INFO  | > Dumping swap chain description:
+16:20:29:570 [15872] | INFO  |   +-----------------------------------------+-----------------------------------------+
+16:20:29:570 [15872] | INFO  |   | Parameter                               | Value                                   |
+16:20:29:571 [15872] | INFO  |   +-----------------------------------------+-----------------------------------------+
+16:20:29:571 [15872] | INFO  |   | Width                                   | 1                                       |
+16:20:29:571 [15872] | INFO  |   | Height                                  | 1                                       |
+16:20:29:571 [15872] | INFO  |   | RefreshRate                             | 0                   1                   |
+16:20:29:572 [15872] | INFO  |   | Format                                  | DXGI_FORMAT_B8G8R8A8_UNORM              |
+16:20:29:572 [15872] | INFO  |   | ScanlineOrdering                        | 0                                       |
+16:20:29:572 [15872] | INFO  |   | Scaling                                 | 0                                       |
+16:20:29:572 [15872] | INFO  |   | SampleCount                             | 1                                       |
+16:20:29:573 [15872] | INFO  |   | SampleQuality                           | 0                                       |
+16:20:29:573 [15872] | INFO  |   | BufferUsage                             | 0x60                                    |
+16:20:29:573 [15872] | INFO  |   | BufferCount                             | 1                                       |
+16:20:29:573 [15872] | INFO  |   | OutputWindow                            | 0000000000060720                        |
+16:20:29:574 [15872] | INFO  |   | Windowed                                | TRUE                                    |
+16:20:29:574 [15872] | INFO  |   | SwapEffect                              | 0                                       |
+16:20:29:574 [15872] | INFO  |   | Flags                                   | 0                                       |
+16:20:29:575 [15872] | INFO  |   +-----------------------------------------+-----------------------------------------+
+16:20:29:578 [15872] | INFO  | Running on Intel(R) UHD Graphics 620 Driver 121.45.
+16:20:29:582 [15872] | WARN  | Reference count for IDXGISwapChain0 object 00000234704BEBA0 (00000233153600A0) is inconsistent (1).
+16:20:29:586 [15872] | WARN  | Reference count for IDXGISwapChain0 object 00000234704BF890 (0000023470967030) is inconsistent (1).
+16:20:29:589 [15872] | WARN  | Reference count for IDXGISwapChain0 object 00000233024830A0 (0000023307049620) is inconsistent (1).
+16:20:29:607 [15872] | INFO  | Redirecting IDXGIFactory::CreateSwapChain(this = 000002330242DC80, pDevice = 00000233022C6CB0, pDesc = 00000085E38FE7B0, ppSwapChain = 00000233733B75C0) ...
+16:20:29:608 [15872] | INFO  | > Dumping swap chain description:
+16:20:29:608 [15872] | INFO  |   +-----------------------------------------+-----------------------------------------+
+16:20:29:608 [15872] | INFO  |   | Parameter                               | Value                                   |
+16:20:29:609 [15872] | INFO  |   +-----------------------------------------+-----------------------------------------+
+16:20:29:609 [15872] | INFO  |   | Width                                   | 1                                       |
+16:20:29:610 [15872] | INFO  |   | Height                                  | 1                                       |
+16:20:29:611 [15872] | INFO  |   | RefreshRate                             | 0                   1                   |
+16:20:29:611 [15872] | INFO  |   | Format                                  | DXGI_FORMAT_B8G8R8A8_UNORM              |
+16:20:29:611 [15872] | INFO  |   | ScanlineOrdering                        | 0                                       |
+16:20:29:612 [15872] | INFO  |   | Scaling                                 | 0                                       |
+16:20:29:612 [15872] | INFO  |   | SampleCount                             | 1                                       |
+16:20:29:612 [15872] | INFO  |   | SampleQuality                           | 0                                       |
+16:20:29:613 [15872] | INFO  |   | BufferUsage                             | 0x60                                    |
+16:20:29:613 [15872] | INFO  |   | BufferCount                             | 1                                       |
+16:20:29:613 [15872] | INFO  |   | OutputWindow                            | 00000000001D0948                        |
+16:20:29:614 [15872] | INFO  |   | Windowed                                | TRUE                                    |
+16:20:29:614 [15872] | INFO  |   | SwapEffect                              | 0                                       |
+16:20:29:614 [15872] | INFO  |   | Flags                                   | 0                                       |
+16:20:29:615 [15872] | INFO  |   +-----------------------------------------+-----------------------------------------+
+16:20:29:616 [15872] | INFO  | Running on Intel(R) UHD Graphics 620 Driver 121.45.
+16:20:29:632 [15872] | INFO  | Destroyed runtime environment on runtime 00000234702F2F00 ('D:\System_files\Stellarium\ReShade2.ini').
+16:20:29:634 [15872] | WARN  | Reference count for IDXGISwapChain0 object 0000023319BFADA0 (00000234702F0EC0) is inconsistent (1).
+16:20:29:639 [15872] | WARN  | Reference count for IDXGISwapChain0 object 00000234704BF440 (0000023311EDC040) is inconsistent (1).
