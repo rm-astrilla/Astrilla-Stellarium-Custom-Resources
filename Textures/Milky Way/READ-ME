@@ -19,3 +19,7 @@ D:\Stellarium\textures (I’ve placed it on drive D for this example)
 
 Paste it there; this will overwrite Stellarium’s default Milky Way texture.
 Restart Stellarium. The default Milky Way texture will now be replaced with the custom texture.
+
+NOTES:
+Remember before change the milky way texture to make sure you rename the file (if it's not renamed before) to 'milkyway.png',
+and beware because it overwrites the previous milky way texture.
